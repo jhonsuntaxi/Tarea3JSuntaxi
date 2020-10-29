@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea3JSuntaxi.Page1">
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <Frame BackgroundColor="Blue">
+                <Label Text="LOGIN" HorizontalTextAlignment="Center" FontSize="25" TextColor="#fff"/>
+            </Frame>
+
+            <Entry x:Name="txtUsuario" Placeholder="Usuario" HorizontalTextAlignment="Center" FontSize="20"/>
+            <Entry x:Name="txtPasswd" IsPassword="True" Placeholder="Password" HorizontalTextAlignment="Center"/>
+
+            <Button x:Name="btnAbrir" Text="Ingresar" Clicked="btnAbrir_Clicked"
+                    BackgroundColor="Blue" TextColor="#fff" FontSize="20"/>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

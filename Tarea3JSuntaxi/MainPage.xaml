@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tarea3JSuntaxi.MainPage">
+
+    <StackLayout>
+
+        <Label x:Name="lblUser">
+        </Label>
+
+        <Label Text="UNIVERSIDAD ISRAEL" HorizontalTextAlignment="Center" TextColor="Blue" FontSize="15">
+        </Label>
+
+        <Entry x:Name="txtDato1" Placeholder="Nota Seguimiento 1" Keyboard="Numeric">
+        </Entry>
+
+        <Entry x:Name="txtDato2" Placeholder="Examen 1" Keyboard="Numeric">
+        </Entry>
+
+        <Entry x:Name="txtDato3" Placeholder="Nota Seguimiento 2" Keyboard="Numeric">
+        </Entry>
+
+        <Entry x:Name="txtDato4" Placeholder="Examen 2" Keyboard="Numeric">
+        </Entry>
+
+        <Label Text="Nota Parcial 1">
+        </Label>
+
+        <Entry x:Name="txtResultado1" IsReadOnly="True">
+        </Entry>
+
+        <Label Text="Nota Parcial 2">
+        </Label>
+
+        <Entry x:Name="txtResultado2" IsReadOnly="True">
+        </Entry>
+
+        <Label Text="NOTA FINAL">
+        </Label>
+
+        <Entry x:Name="txtResultadoFinal" IsReadOnly="True">
+        </Entry>
+
+        <Label Text="ESTADO">
+        </Label>
+
+        <Entry x:Name="txtEstado" IsReadOnly="True" TextColor="Red">
+        </Entry>
+
+        <Button x:Name="btnSumar"
+                Text="CALCULAR"
+               Clicked="btnSumar_Clicked">
+        </Button>
+    </StackLayout>
+
+</ContentPage>
